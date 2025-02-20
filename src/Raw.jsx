@@ -9,7 +9,7 @@ extend({ MeshLineGeometry, MeshLineMaterial })
 export default function RawCard() {
   return (
     <Canvas camera={{ position: [0, 0, 13], fov: 25 }}>
-      <Physics debug interpolate gravity={[0, -40, 0]} timeStep={1 / 60}>
+      <Physics debug interpolate gravity={[0, -10, 0]} timeStep={1 / 60}>
         <Band />
       </Physics>
     </Canvas>
